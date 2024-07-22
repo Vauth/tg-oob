@@ -1,5 +1,5 @@
 # Telegram OOB
-Out-of-band with telegram bot api using cloudflare workers.
+Out-of-Band with telegram bot api using cloudflare workers.
 
 <br>
 
@@ -61,3 +61,4 @@ _italic_
 `mono`
 ```code block```
 ```
+- [More information](https://www.google.com/search?&q=oob+blind+hunting).
