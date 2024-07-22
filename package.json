@@ -1,0 +1,19 @@
+{
+    "name": "tg-oob",
+    "version": "1.0.0",
+    "description": "out-of-band to telegram using cloudflare workers.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vauth/tg-oob.git"
+    },
+    "keywords": [
+        "Cloudflare",
+        "Cloudflare-Worker"
+    ],
+    "author": "vauth",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/vauth/tg-oob/issues"
+    },
+    "homepage": "https://github.com/vauth/tg-oob#readme"
+}
