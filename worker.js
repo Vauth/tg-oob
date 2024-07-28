@@ -19,7 +19,9 @@ addEventListener('fetch', event => {
   } else if (url.pathname === '/test') {
     event.respondWith(sendMessage(OWNER, "I'm alive."))
   } else if (param.has('send')) {
-    event.respondWith(sendMessage(OWNER, param.get('send'))) 
+    event.respondWith(sendMessage(OWNER, param.get('send')))
+  } else if (url.pathname === '/p/') {
+    event.respondWith(sendMessage(OWNER, url))
   } else {
     event.respondWith(onError())
   }
