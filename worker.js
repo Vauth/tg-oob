@@ -19,9 +19,9 @@ addEventListener('fetch', event => {
   } else if (url.pathname === '/test') {
     event.respondWith(sendMessage(OWNER, "I'm alive."))
   } else if (param.has('send')) {
-    event.respondWith(sendMessage(OWNER, param.get('send')))
+    event.respondWith(sendMessage(OWNER, "```javascript\n" + param.get('send') + "\n```" ))
   } else if (url.pathname.startsWith('/p/')) {
-    event.respondWith(sendMessage(OWNER, url))
+    event.respondWith(sendMessage(OWNER, "```javascript\n" + url + "\n```"))
   } else {
     event.respondWith(onError())
   }
