@@ -35,9 +35,14 @@ XXX.XXXX.workers.dev/unRegisterWebhook
 XXX.XXXX.workers.dev/test
 // Response - {"status":200}
 ```
-- Send Message:
+- Send Message
 ```javascript
 XXX.XXXX.workers.dev/?send=hello+world
+// Response - {"status":200}
+```
+- Send Bulk URL
+```javascript
+XXX.XXXX.workers.dev/p/data...
 // Response - {"status":200}
 ```
 
